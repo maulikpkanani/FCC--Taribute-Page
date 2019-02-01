@@ -1,0 +1,79 @@
+html,
+body {
+	/* font-family: 'Trebuchet MS', Helvetica, sans-serif;*/
+	word-wrap: break-word;
+	color: #333;
+}
+
+#main {
+	background: #eee;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+#header {
+	padding-top: 5px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#img-div {
+	background: white;
+	margin: 10px;
+}
+
+#image {
+	display: block;
+	margin: 10px auto 10px;
+	max-width: 100%;
+}
+
+#img-caption {
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 18px;
+}
+
+#tribute-info {
+	margin: 0 auto;
+	width: 600px;
+}
+
+#tribute-list {
+	margin-left: -25px;
+}
+
+ul li {
+	padding: 5px;
+	font-size: 18px;
+}
+
+.year {
+	font-weight: bold;
+}
+
+#words {
+	padding: 0 70px;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+#by {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+#link-words {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 620px) {
+	#tribute-info {
+		margin: 0 auto;
+		width: auto;
+	}
+}
